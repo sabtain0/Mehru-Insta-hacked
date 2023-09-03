@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#container2 {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(43, 177, 43);
+    overflow-wrap: break-word;
+}
+
+.dram {
+    height: 100px;
+    width: 630px;
+    background-color: black;
+    text-align: center;
+    margin-top: 55px;
+    color: rgb(132, 240, 43);
+    /* display: flex;s */
+    position: relative;
+    left: 30%;
+    bottom: 380px;
+    font-family: sans-serif;
+}
+
+.anni {
+    animation: dream 3s ease-in 1s 1;
+    height: 30px;
+    background-color: rgb(223, 102, 46);
+    margin-top: 16px;
+}
+
+.show {
+    height: 315px;
+    width: 380px;
+    background-color: black;
+    color: rgb(110, 247, 133);
+    display: inline-block;
+    position: relative;
+    left: 37%;
+    bottom: 580px;
+    padding: 6px;
+    margin-top: 23px;
+    font-family: sans-serif;
+}
+
+
+@keyframes dream {
+
+    0% {
+        width: 0px;
+    }
+
+    40% {
+        width: 80px;
+    }
+
+    60% {
+        width: 100px;
+    }
+
+    100% {
+        width: 228px;
+    }
+}
+
+p {
+    margin-top: 19px;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
